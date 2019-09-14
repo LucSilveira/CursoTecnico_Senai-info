@@ -1,0 +1,46 @@
+#Ola{
+    position: fixed;
+      width: 120em;
+    height: 62.5em;
+    z-index: -2;
+    margin-top: -14px;
+}
+
+#formu{
+      z-index: -1;
+    position: fixed;
+    margin-top: 0em;
+    margin-left: 49.2em;
+    border-bottom: 977px solid #000000;
+    border-left: 1134px solid transparent;
+    width: 110px;
+}
+
+#cad{
+margin-top: -4em;
+    margin-left: 9em;
+    position: fixed;
+    width: 78em;
+    height: 51em;
+}
+
+#home{
+    width: 8em;
+    position: fixed;
+        margin-top: 54em;
+    margin-left: 80em;
+    height: 4em;
+}
+
+#tabelaPatrimonios{
+	/* width: 100%; */
+    max-height: -39%;
+    max-width: 63%;
+    margin-bottom: 1rem;
+    background-color: transparent;
+    margin-left: 10em;
+    z-index: 1;
+    position: absolute;
+    /* margin-right: 48em; */
+    margin-bottom: 15em;
+}

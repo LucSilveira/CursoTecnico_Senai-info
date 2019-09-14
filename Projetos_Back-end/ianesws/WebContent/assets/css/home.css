@@ -1,0 +1,389 @@
+
+    #body{
+        background: black;
+    }
+
+    #Ola{
+        position: absolute;
+        width: 100%;    }
+        
+        #tchau{
+        position: fixed;
+    z-index: 1;
+    margin-left: 75em;
+    margin-top: 53em;
+        }
+
+#h1 {
+    margin-top: 106%;
+    margin-left: 1.8%;
+    font-size: 266%;
+    color: white;
+    position: absolute;
+    text-align: center;
+    text-shadow: 0 0 2px #490672, 0 0 10px #490672, 0 0 10px #490672, 0 0 30px #490672, 0 0 40px #490672, 0 0 50px #490672, 0 0 60px #490672, 0 0 70px #490672;
+}
+
+   #FormEntra {
+    position: absolute;
+    margin-left: 14%;
+    margin-top: 131%;
+    font-size: 179%;
+    width: -29%;
+}
+
+#Email {
+    font-size: 100%;
+    height: 49%;
+    width: 85%;
+    text-align: center;
+}
+
+#Senha{
+    font-size: 100%;
+    height: 49%;
+    width: 85%;
+    text-align: center;
+}
+
+#Entrar{
+    font-size: 100%;
+    margin-left: 24%;
+    width: 41%;
+    height: 48px;
+}
+
+#passwrd{
+    margin-top: -18%;
+}
+
+/********************************************************************************************************/
+
+@media screen and (min-width: 650px){
+
+    #Ola{
+        position: absolute;
+        width: 100%;    }
+
+    #h1 {
+        margin-top: 109%;
+        margin-left: 10.8%;
+        font-size: 432%;
+        color: white;
+        position: absolute;
+        text-align: center;
+        text-shadow: 0 0 2px #490672, 0 0 10px #490672, 0 0 10px #490672, 0 0 30px #490672, 0 0 40px #490672, 0 0 50px #490672, 0 0 60px #490672, 0 0 70px #490672;
+    }
+
+    #FormEntra {
+        position: absolute;
+        margin-left: 31%;
+        margin-top: 121%;
+        font-size: 178%;
+        width: -29%;
+    }
+
+    #passwrd {
+    margin-top: -12%;
+}
+
+}
+
+/********************************************************************************************************/
+
+@media screen and (min-width: 303px){
+
+    #Ola{
+        position: absolute;
+        width: 100%;    }
+
+    #h1 {
+        margin-top: 109%;
+        margin-left: -0.2%;
+        font-size: 256%;
+        color: white;
+        position: absolute;
+        text-align: center;
+        text-shadow: 0 0 2px #490672, 0 0 10px #490672, 0 0 10px #490672, 0 0 30px #490672, 0 0 40px #490672, 0 0 50px #490672, 0 0 60px #490672, 0 0 70px #490672;
+    }
+
+    #FormEntra {
+        position: absolute;
+        margin-left: 12%;
+        margin-top: 128%;
+        font-size: 178%;
+        width: -29%;
+    }
+
+    #passwrd {
+    margin-top: -14%;
+    }
+
+    #Email {
+        font-size: 90%;
+        height: 49%;
+        width: 85%;
+        text-align: center;
+    }
+
+    #Senha {
+        font-size: 90%;
+        height: 49%;
+        width: 85%;
+        text-align: center;
+    }
+
+    #Entrar {
+        font-size: 80%;
+        margin-left: 28%;
+        width: 32%;
+        height: 39px;
+    }
+
+}
+
+/********************************************************************************************************/
+
+@media screen and (min-width: 399px){
+
+    #Ola{
+        position: absolute;
+        width: 100%;
+    }
+
+    #h1 {
+        margin-top: 109%;
+        margin-left: 5.8%;
+        font-size: 307%;
+        color: white;
+        position: absolute;
+        text-align: center;
+        text-shadow: 0 0 2px #490672, 0 0 10px #490672, 0 0 10px #490672, 0 0 30px #490672, 0 0 40px #490672, 0 0 50px #490672, 0 0 60px #490672, 0 0 70px #490672;
+    }
+    #FormEntra {
+        position: absolute;
+        margin-left: 20%;
+        margin-top: 132%;
+        font-size: 178%;
+        width: -29%;
+    }
+
+}
+
+/********************************************************************************************************/
+
+@media screen and (min-width: 499px){
+
+    #Ola{
+        position: absolute;
+        width: 100%;
+    }
+
+    #h1 {
+        margin-top: 109%;
+        margin-left: 1.8%;
+        font-size: 406%;
+        color: white;
+        position: absolute;
+        text-align: center;
+        text-shadow: 0 0 2px #490672, 0 0 10px #490672, 0 0 10px #490672, 0 0 30px #490672, 0 0 40px #490672, 0 0 50px #490672, 0 0 60px #490672, 0 0 70px #490672;
+    }
+    #FormEntra {
+        position: absolute;
+        margin-left: 25%;
+    margin-top: 134%;
+        font-size: 178%;
+        width: -29%;
+    }
+
+}
+
+/********************************************************************************************************/
+
+@media screen and (min-width: 550px){
+
+    #Ola{
+        position: absolute;
+        width: 100%;
+    }
+
+    #h1 {
+        margin-top: 109%;
+        margin-left: 1.8%;
+        font-size: 406%;
+        color: white;
+        position: absolute;
+        text-align: center;
+        text-shadow: 0 0 2px #490672, 0 0 10px #490672, 0 0 10px #490672, 0 0 30px #490672, 0 0 40px #490672, 0 0 50px #490672, 0 0 60px #490672, 0 0 70px #490672;
+    }
+    #FormEntra {
+        position: absolute;
+        margin-left: 28%;
+        margin-top: 120%;
+        font-size: 178%;
+        width: -29%;
+    }
+
+}
+
+/********************************************************************************************************/
+
+@media screen and (min-width: 549px){
+
+    #Ola{
+        position: absolute;
+        width: 100%;
+    }
+
+    #h1 {
+        margin-top: 109%;
+        margin-left: 8.8%;
+        font-size: 406%;
+        color: white;
+        position: absolute;
+        text-align: center;
+        text-shadow: 0 0 2px #490672, 0 0 10px #490672, 0 0 10px #490672, 0 0 30px #490672, 0 0 40px #490672, 0 0 50px #490672, 0 0 60px #490672, 0 0 70px #490672;
+    }
+    #FormEntra {
+        position: absolute;
+        margin-left: 31%;
+        margin-top: 130%;
+        font-size: 178%;
+        width: -29%;
+    }
+
+}
+
+/********************************************************************************************************/
+
+@media screen and (min-width: 599px){
+
+    #Ola{
+        position: absolute;
+        width: 100%;
+    }
+
+    #h1 {
+        margin-top: 109%;
+        margin-left: 9.8%;
+        font-size: 430%;
+        color: white;
+        position: absolute;
+        text-align: center;
+        text-shadow: 0 0 2px #490672, 0 0 10px #490672, 0 0 10px #490672, 0 0 30px #490672, 0 0 40px #490672, 0 0 50px #490672, 0 0 60px #490672, 0 0 70px #490672;
+    }
+    #FormEntra {
+        position: absolute;
+        margin-left: 27%;
+        margin-top: 130%;
+        font-size: 178%;
+    }
+
+    #Senha {
+    font-size: 110%;
+    height: 49%;
+    width: 85%;
+    text-align: center;
+}
+
+#Email {
+    font-size: 110%;
+    height: 49%;
+    width: 85%;
+    text-align: center;
+}
+#passwrd {
+    margin-top: -10%;
+}
+
+}
+
+
+/********************************************************************************************************/
+
+@media screen and (min-width: 1015px){
+
+    #Ola {
+    position: absolute;
+    width: 65%;
+}
+
+    #h1 {
+       margin-top: 16%;
+    margin-left: 65.8%;
+    font-size: 430%;
+    color: white;
+    position: absolute;
+    text-align: center;
+    text-shadow: 0 0 2px #490672, 0 0 10px #490672, 0 0 10px #490672, 0 0 30px #490672, 0 0 40px #490672, 0 0 50px #490672, 0 0 60px #490672, 0 0 70px #490672;
+}
+    #FormEntra {
+            position: absolute;
+            margin-left: 71%;
+            margin-top: 29%;
+            font-size: 178%;
+    }
+
+    #Senha {
+    font-size: 110%;
+    height: 49%;
+    width: 85%;
+    text-align: center;
+}
+
+#Email {
+    font-size: 110%;
+    height: 49%;
+    width: 85%;
+    text-align: center;
+}
+#passwrd {
+    margin-top: -10%;
+}
+
+}
+
+/********************************************************************************************************/
+
+@media screen and (min-width: 1260px){
+
+    #Ola {
+    position: absolute;
+    width: 58%;
+}
+
+    #h1 {
+       margin-top: 14%
+    margin-left: 59.8%;
+    font-size: 498%;
+    color: white;
+    position: absolute;
+    text-align: center;
+    text-shadow: 0 0 2px #490672, 0 0 10px #490672,
+    0 0 10px #490672, 0 0 30px #490672, 0 0 40px #490672,
+    0 0 50px #490672, 0 0 60px #490672, 0 0 70px #490672;
+}
+    #FormEntra {
+position: absolute;
+    margin-left: 68%;
+    margin-top: 26%;
+    font-size: 178%;
+    text-align: center;
+    }
+
+    #Senha {
+    font-size: 110%;
+    height: 49%;
+    width: 85%;
+    text-align: center;
+}
+
+#Email {
+    font-size: 110%;
+    height: 49%;
+    width: 85%;
+    text-align: center;
+}
+#passwrd {
+    margin-top: -10%;
+}

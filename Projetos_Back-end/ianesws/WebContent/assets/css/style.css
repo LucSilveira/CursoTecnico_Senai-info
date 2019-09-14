@@ -1,0 +1,19 @@
+@charset "ISO-8859-1";
+
+#menuSuperior{
+    background-color: rgba(30, 30, 30 , .5);
+    height: 48px;
+    position: fixed;
+    width: 100%;
+    top: 0px; /*Para iniciar noro topo da página*/
+    z-index: 1; /*Define a camada de renderização*/
+}
+
+#menuSuperior nav{
+    text-align: right;
+    padding: 16px 32px;
+}
+
+#menuSuperior nav a{
+    margin-left: 32px;
+}
