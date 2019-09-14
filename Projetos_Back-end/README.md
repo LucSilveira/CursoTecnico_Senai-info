@@ -1,0 +1,1 @@
+Projetos back-end, utilizando a estrutura MAVEN de projetos para criarmos aplicações Web fazendo conexão com o banco de dados.

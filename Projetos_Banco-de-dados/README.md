@@ -1,0 +1,1 @@
+Projetos criados duranto o aprendizado de Banco de dados. Demonstrando como criar um banco de dados e definir o tipo de dados de determinado elemento, e por fim como modelarmos as tabelas.
