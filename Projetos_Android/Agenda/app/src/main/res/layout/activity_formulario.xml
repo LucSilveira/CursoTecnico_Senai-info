@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.com.senai.agenda.FormularioActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/formulario_foto"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                app:srcCompat="@android:drawable/sym_def_app_icon" />
+
+            <Button
+                android:id="@+id/formulario_botao_foto"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="-16dp"
+                android:background="@drawable/circulo"
+                android:elevation="9dp"
+                android:layout_marginRight="10dp"/>
+        </RelativeLayout>
+            <EditText
+                android:id="@+id/editNome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/formulario_foto"
+                android:layout_marginTop="14dp"
+                android:ems="10"
+                android:hint="@string/nome"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editTelefone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/editNome"
+                android:layout_alignStart="@+id/editNome"
+                android:layout_below="@+id/editNome"
+                android:layout_marginTop="21dp"
+                android:ems="10"
+                android:hint="@string/Telefone"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editEnd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/editTelefone"
+                android:layout_marginTop="18dp"
+                android:ems="10"
+                android:hint="@string/Endereco"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/editEnd"
+                android:layout_marginTop="17dp"
+                android:ems="10"
+                android:hint="@string/Email"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editFace"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/editEmail"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="18dp"
+                android:ems="10"
+                android:focusedByDefault="true"
+                android:hint="@string/Facebook"
+                android:inputType="textPersonName" />
+
+            <RatingBar
+                android:id="@+id/classificacao"
+                style="@android:style/Widget.DeviceDefault.Light.RatingBar"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/editFace"
+                android:layout_centerHorizontal="true"
+                android:numStars="5"
+                android:layout_marginTop="23dp" />
+
+            <Button
+                android:id="@+id/btnCadastrar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/classificacao"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="28dp"
+                android:text="@string/botaoCadastrar" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

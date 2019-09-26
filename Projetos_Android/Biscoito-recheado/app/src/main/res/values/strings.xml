@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Biscoito recheado</string>
+    <string name="Biscoito">Biscoito ou Biscoito Recheado ??</string>
+    <string name="checkBisct">Biscoito</string>
+    <string name="checkBisctRch">Biscoito Recheado</string>
+    <string name="env">Enviar</string>
+</resources>

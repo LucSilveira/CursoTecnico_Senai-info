@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Livros</string>
+    <string name="title_activity_main_drw">MainDrwActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_lista_livros">ListaLivros</string>
+    <string name="casd">Cadastro</string>
+    <string name="Cadas">Cadastro</string>
+    <string name="s">Cadastro</string>
+    <string name="cadastro">cadastro</string>
+</resources>

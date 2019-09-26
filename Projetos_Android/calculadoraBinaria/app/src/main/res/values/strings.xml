@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">calculadoraBinaria</string>
+    <string name="valorDigitado">Insira um valor para conversão ...</string>
+    <string name="limpar">Limpar</string>
+    <string name="converter">Converter</string>
+    <string name="result">Resultado da converção ...</string>
+    <string name="vazio"></string>
+</resources>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="br.com.senai.livraria.FormularioLivrosActivity"
+    tools:showIn="@layout/app_bar_formulario_livros">
+
+    <ImageView
+        android:id="@+id/imgSuaFoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="33dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="18dp"
+        app:srcCompat="@mipmap/ic_launcher_round" />
+
+    <Button
+        android:id="@+id/btnCarregarImagem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imgSuaFoto"
+        android:layout_alignLeft="@+id/btnCadastrar"
+        android:layout_alignStart="@+id/btnCadastrar"
+        android:layout_marginLeft="36dp"
+        android:layout_marginStart="36dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/btnCarregarImagem"
+        android:textColor="@color/cardview_light_background" />
+
+    <EditText
+        android:id="@+id/editNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editTAutor"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:ems="10"
+        android:hint="@string/editNome"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTAutor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editGenero"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:ems="10"
+        android:hint="@string/editAutor"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editGenero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:hint="@string/editGenero"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editEditora"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editGenero"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:hint="@string/editEditora"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editAnoPublicacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editEditora"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:ems="10"
+        android:hint="@string/editAnoPublicacao"
+        android:inputType="textPersonName"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/btnCadastrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="17dp"
+        android:backgroundTint="@color/colorAccent"
+        android:text="@string/btnCadastrar" />
+
+</RelativeLayout>

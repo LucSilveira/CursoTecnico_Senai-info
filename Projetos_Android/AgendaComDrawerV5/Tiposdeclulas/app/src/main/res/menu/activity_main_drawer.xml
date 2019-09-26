@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_menu"
+            android:icon="@drawable/ic_menu_black"
+            android:title="Página principal" />
+        <item
+            android:id="@+id/nav_navegar"
+            android:icon="@drawable/ic_explore_black"
+            android:title="Explorar células" />
+        <item
+            android:id="@+id/nav_dna"
+            android:icon="@drawable/ic_fingerprint_red"
+            android:title="Componentes das células" />
+    </group>
+
+    <item android:title="Contatos">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_contact_mail_black"
+                android:title="Entre em contato" />
+
+        </menu>
+    </item>
+
+</menu>

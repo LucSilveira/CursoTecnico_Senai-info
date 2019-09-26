@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="52dp"
+        android:text="Bem vindo ao Mundo Celular!"
+        android:textAlignment="center"
+        android:textColor="#206907"
+        android:textSize="36sp"
+        app:fontFamily="casual" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="132dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="152dp"
+        android:background="@android:color/background_light"
+        app:srcCompat="@drawable/cel" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="138dp"
+        android:text="Clique no botão para explorar esse Mundo!"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp"
+        app:fontFamily="casual" />
+
+    <Button
+        android:id="@+id/btnEntrar"
+        android:layout_width="259dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="67dp"
+        android:background="@color/colorAccent"
+        android:text="Entrar"
+        android:fontFamily="casual"
+        android:textColor="@android:color/background_light"
+
+        />
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Agenda</string>
+    <string name="botaoCadastrar">Cadastrar</string>
+    <string name="nome">Nome</string>
+    <string name="Telefone">Telefone</string>
+    <string name="Endereco">Endereço</string>
+    <string name="Email">E-Mail</string>
+    <string name="Facebook">Facebook</string>
+    <string name="title_activity_main_com_menu_lateral">Tela Inicial</string>
+
+    <string name="navigation_drawer_open">Tela Inicial</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>

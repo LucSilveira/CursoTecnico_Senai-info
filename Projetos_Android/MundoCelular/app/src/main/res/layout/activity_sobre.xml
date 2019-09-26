@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SobreActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textSobre"
+                android:layout_width="114dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="134dp"
+                android:text="Sobre"
+                android:textSize="36sp" />
+
+
+            <TextView
+                android:id="@+id/textIntegrantes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="127dp"
+                android:text="*Integrantes"
+                android:textColor="@android:color/background_dark"
+                android:textSize="24sp" />
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:id="@+id/tableLinhaUm"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/textNomes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:paddingRight="5dp"
+                    android:text="Francisco Ayrton   nº07"
+                    android:textSize="18sp"
+                    android:textAlignment="center" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableLinhaDois"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/textNomesDois"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"                    android:textSize="18sp"
+                    android:textAlignment="center"
+                    android:layout_centerVertical="true"
+                    android:paddingRight="5dp"
+                    android:text="Gabriel Henrique  nº09" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableLinhaTres"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textNomesTres"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"                    android:textSize="18sp"
+                        android:textAlignment="center"
+                        android:layout_centerVertical="true"
+                        android:paddingRight="5dp"
+                        android:paddingStart="7dp"
+                        android:text="Íris Campanella   nº14    3ºAno B" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableLinhaQuatro"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textNomesQuatro"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"                    android:textSize="18sp"
+                        android:textAlignment="center"
+                        android:layout_centerVertical="true"
+                        android:paddingRight="5dp"
+                        android:text="Victor Ravazio    nº27" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableLinhaCinco"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textNomesCinco"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"                    android:textSize="18sp"
+                        android:textAlignment="center"
+                        android:layout_centerVertical="true"
+                        android:paddingRight="5dp"
+                        android:text="Lucas Silveira     nº31" />
+
+                </TableRow>
+            </TableLayout>
+
+
+            <TextView
+                android:id="@+id/textDisciplina"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/multiNomes"
+                android:text="*Disciplina"
+                android:paddingVertical="22dp"
+                android:layout_marginVertical="0dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="24sp" />
+
+
+            <TextView
+                android:id="@+id/textBiologia"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="92dp"
+                android:layout_marginStart="31dp"
+                android:text="Biologia"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textProfessor"
+                android:layout_width="188dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/multiNomes"
+                android:layout_toEndOf="@+id/textSobre"
+                android:text="*Professor(a)"
+                android:textColor="@android:color/background_dark"
+                android:textSize="24sp"
+                android:layout_marginVertical="3dp"
+                android:paddingVertical="22dp"
+                android:layout_marginLeft="0dp"
+                />
+
+
+            <TextView
+                android:id="@+id/textKaren"
+                android:layout_width="133dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@+id/textBiologia"
+                android:layout_marginEnd="48dp"
+                android:layout_marginStart="0dp"
+                android:text="Karen"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

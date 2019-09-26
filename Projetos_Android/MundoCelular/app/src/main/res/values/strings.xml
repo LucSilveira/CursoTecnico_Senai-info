@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Mundo Celular</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="tituloMain">Mundo Celular</string>
+    <string name="subMain">Células e suas propriedades</string>
+    <string name="title_activity_organelas">OrganelasActivity</string>
+    <string name="title_activity_galeria">GaleriaActivity</string>
+    <string name="title_activity_tipos">TiposActivity</string>
+    <string name="title_activity_avaliacao">AvaliacaoActivity</string>
+    <string name="btnEnviar">Enviar</string>
+    <string name="action_sobre">Sobre</string>
+    <string name="textTipos">Tipos de Células</string>
+    <string name="textOrganelas" >Organelas</string>
+    <string name="textSubOrganelas">Conheça as Organelas e sus funções!</string>
+    <string name="textNavSubTipos">Saiba a diferença entre Eucariontes e Procariontes!</string>
+    <string name="textNavGaleria">Galeria</string>
+    <string name="textNavSubGaleria">Veja as fotos do mundo invisível aos nossos olhos</string>
+    <string name="textNavAvaliacao">Nos Avalie!</string>
+    <string name="textNavSubAvaliacao">Envie-nos sua visão sobre nosso App</string>
+</resources>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Livraria</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_formulario_livros">FormularioLivrosActivity</string>
+    <string name="editNome">Nome</string>
+    <string name="editAutor">Autor</string>
+    <string name="editGenero">Genero</string>
+    <string name="editEditora">Editora</string>
+    <string name="editAnoPublicacao">Ano de Publicação</string>
+    <string name="btnCarregarImagem">Carregue sua Foto</string>
+    <string name="btnCadastrar">Envie</string>
+    <string name="title_activity_recycle_drawer">RecycleDrawerActivity</string>
+</resources>

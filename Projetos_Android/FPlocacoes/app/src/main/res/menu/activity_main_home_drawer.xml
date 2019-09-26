@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/alugar"
+            android:icon="@drawable/ic_add_shopping_cart"
+            android:title="Alugar veiculos" />
+        <item
+            android:id="@+id/carros"
+            android:icon="@drawable/ic_directions_car"
+            android:title="nossos veiculos" />
+        <item
+            android:id="@+id/lista_alugar"
+            android:icon="@drawable/ic_list"
+            android:title="lista de alugados" />
+        <item
+            android:id="@+id/lista_cars"
+            android:icon="@drawable/ic_filter_list"
+            android:title="lista de carros" />
+    </group>
+
+
+</menu>

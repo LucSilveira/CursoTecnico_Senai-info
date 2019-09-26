@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TesteDt</string>
+    <string name="titlulo_pickers">Obtener fecha y hora</string>
+    <string name="formato_fecha">dd/mm/yyyy</string>
+</resources>

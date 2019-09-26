@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".TiposActivity"
+    tools:showIn="@layout/app_bar_tipos">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textTipos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="3dp"
+                android:layout_marginTop="25dp"
+                android:text="@string/textTipos"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_dark"
+                android:textSize="36sp"
+                app:fontFamily="casual" />
+
+
+            <TextView
+                android:id="@+id/textSubTipos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Eucariontes"
+                android:textSize="22dp"
+                android:layout_marginVertical="10dp"
+                android:fontFamily="casual"/>
+
+            <TextView
+                android:id="@+id/textEucaTipos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="1dp"
+                android:fontFamily="casual"
+                android:text="A células que formam o organismo de muitos dos seres vivos apresentam uma membrana envolvendo seu núcleo, por isso são chamadas de células eucariotas. A célula eucariota é constituída de membrana plasmática, citoplasma e núcleo. " />
+
+            <ImageView
+                android:id="@+id/imgEucarionte"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                app:srcCompat="@drawable/eucarionte" />
+
+
+            <TextView
+                android:id="@+id/textSubDoisTipos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Procariontes"
+                android:textSize="22dp"
+                android:layout_marginVertical="10dp"
+                android:fontFamily="casual"/>
+
+            <TextView
+                android:id="@+id/textProcaTipos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="Diferente das células eucariotas, a célula procariota não possui membrana nuclear nem estruturas membranosas no seu interior. " />
+
+            <ImageView
+                android:id="@+id/imgProcarionte"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/procarionte" />
+
+
+            <TextView
+                android:id="@+id/textSubTresTipos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Vírus"
+                android:textSize="22dp"
+                android:layout_marginVertical="10dp"
+                android:fontFamily="casual"/>
+
+            <TextView
+                android:id="@+id/textVirusTipos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="O termo vírus geralmente refere-se às partículas que infectam eucariontes (organismos cujas células têm carioteca), enquanto o termo bacteriófago ou fago é utilizado para descrever aqueles que infectam procariontes (domínios bacteria e archaea). Portanto, eles não são considerados seres vivos por não possuírem células, as quais são cruciais para determinar se algum objeto é inanimado ou vivo. " />
+
+            <ImageView
+                android:id="@+id/imgVirus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/celulasvirus" />
+
+            <SeekBar
+                android:id="@+id/seekBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/imgAnimalVegetal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/animalvegetal" />
+
+            <TextView
+                android:id="@+id/textAnimalVegetalUm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="A célula animal e vegetal são eucariontes, ou seja, pertencem ao tipo celular mais complexo e que constituem a maior parte dos seres vivos." />
+
+            <TextView
+                android:id="@+id/textAnimalVegetalDois"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="Lembre-se, a célula eucarionte é aquela que possui núcleo individualizado, delimitado por membrana celular." />
+
+            <TextView
+                android:id="@+id/textAnimalVegetalTres"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="Apesar dessa semelhança, as células animais e vegetais apresentam diferenças quanto à estrutura, formato e componentes celulares. " />
+
+            <TextView
+                android:id="@+id/textDiferencas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:layout_marginVertical="10dp"
+                android:textSize="22dp"
+                android:text="Principais diferenças " />
+
+            <TextView
+                android:id="@+id/textDifEstruturaForma"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:textSize="18dp"
+                android:layout_marginVertical="5dp"
+                android:text="1. Estrutura e forma " />
+
+            <TextView
+                android:id="@+id/textDifUm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="A célula animal e vegetal apresentam formato diferenciado. A célula animal possui formato irregular, enquanto a célula vegetal apresenta uma forma fixa.
+As células animais podem apresentam cílios e flagelos, o que não ocorre na célula vegetal.
+
+Podemos observar um grande vacúolo na célula vegetal, que ocupa grande parte do seu citoplasma. Isso deve-se a função da célula de armazenar seiva e realizar o controle da entrada e saída de água.
+" />
+
+            <TextView
+                android:id="@+id/textDifParedeCelular"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:textSize="18dp"
+                android:layout_marginVertical="5dp"
+                android:text="2. Parede Celular  " />
+
+
+            <TextView
+                android:id="@+id/textDifDois"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="A parede celular é uma estrutura exclusiva das células vegetais. Ela corresponde a um envoltório externo à membrana plasmática, formado pelo polissacarídeo celulose.
+
+A função da parede celular é oferecer sustentação, resistência e proteção contra patógenos externos. Além disso, ela realiza a troca de substâncias entre células vizinhas e controla a entrada de água na célula.
+
+As células animais não apresentam parede celular. " />
+
+
+            <TextView
+                android:id="@+id/textDifOrganelas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:textSize="18dp"
+                android:layout_marginVertical="5dp"
+                android:text="3. Organelas" />
+
+
+            <TextView
+                android:id="@+id/textDifTres"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="As organelas celulares são estruturas que realizam as funções essenciais para o funcionamento das células. A célula animal e vegetal apresentam algumas organelas específicas, conforme a atividade que realizam. " />
+
+
+            <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/simpleTableLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:stretchColumns="1"> <!-- stretch the second column of the layout-->
+
+                <!-- first row of the table layout-->
+                <TableRow
+                    android:id="@+id/firstRow"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                    <!-- first element of the row-->
+                    <TextView
+                        android:id="@+id/textTableTituloUm"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="#FF0000"
+                        android:padding="18dip"
+                        android:text="Organela "
+                        android:textColor="#000"
+                        android:fontFamily="casual"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textTableTituloDois"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="#FF0000"
+                        android:fontFamily="casual"
+                        android:padding="18dip"
+                        android:text="Célula V."
+                        android:textColor="#000"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textTableTituloTres"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="#FF0000"
+                        android:fontFamily="casual"
+                        android:padding="18dip"
+                        android:text="Célula A."
+                        android:textColor="#000"
+                        android:textSize="16dp" />
+
+                </TableRow>
+
+                <TableRow android:id="@+id/secondRow"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/textTableLinhaUm"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="#FFFFFF"
+                        android:padding="18dip"
+                        android:fontFamily="casual"
+                        android:text="Mitocôndria"
+                        android:textColor="#000"
+                        android:textSize="14dp" />
+
+
+                    <TextView
+                        android:id="@+id/textTableLinhaUm2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="#FFFFFF"
+                        android:padding="18dip"
+                        android:fontFamily="casual"
+                        android:text="Presente"
+                        android:textColor="#000"
+                        android:textSize="14dp" />
+
+
+                    <TextView
+                        android:id="@+id/textTableLinhaUm3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="#FFFFFF"
+                        android:padding="18dip"
+                        android:fontFamily="casual"
+                        android:text="Presente"
+                        android:textColor="#000"
+                        android:textSize="14dp" />
+                </TableRow>
+
+                <TableRow android:id="@+id/thirdRow"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/textTableLinhaDois"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="#FFFFFF"
+                        android:padding="18dip"
+                        android:fontFamily="casual"
+                        android:text="Retículo Endoplasmático L."
+                        android:textColor="#000"
+                        android:textSize="14dp" />
+
+
+                    <TextView
+                        android:id="@+id/textTableLinhaDois2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="#FFFFFF"
+                        android:padding="18dip"
+                        android:fontFamily="casual"
+                        android:text="Presente"
+                        android:textColor="#000"
+                        android:textSize="14dp" />
+
+
+                    <TextView
+                        android:id="@+id/textTableLinhaDois3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="#FFFFFF"
+                        android:padding="18dip"
+                        android:fontFamily="casual"
+                        android:text="Presente"
+                        android:textColor="#000"
+                        android:textSize="14dp" />
+                </TableRow>
+
+
+
+                <TableRow android:id="@+id/forthRow"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/textTableLinhaTres"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="#FFFFFF"
+                        android:padding="18dip"
+                        android:fontFamily="casual"
+                        android:text="Retículo Endoplasmático R."
+                        android:textColor="#000"
+                        android:textSize="14dp" />
+
+
+                    <TextView
+                        android:id="@+id/textTableLinhaTres2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="#FFFFFF"
+                        android:padding="18dip"
+                        android:fontFamily="casual"
+                        android:text="Presente"
+                        android:textColor="#000"
+                        android:textSize="14dp" />
+
+
+                    <TextView
+                        android:id="@+id/textTableLinhaTres3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="#FFFFFF"
+                        android:padding="18dip"
+                        android:fontFamily="casual"
+                        android:text="Presente"
+                        android:textColor="#000"
+                        android:textSize="14dp" />
+                </TableRow>
+
+
+            <TableRow android:id="@+id/fivethRow"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textTableLinhaQuatro"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:padding="18dip"
+                    android:fontFamily="casual"
+                    android:text="Ribossomos"
+                    android:textColor="#000"
+                    android:textSize="14dp" />
+
+
+                <TextView
+                    android:id="@+id/textTableLinhaQuatro2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:padding="18dip"
+                    android:fontFamily="casual"
+                    android:text="Presente"
+                    android:textColor="#000"
+                    android:textSize="14dp" />
+
+
+                <TextView
+                    android:id="@+id/textTableLinhaQuatro3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:padding="18dip"
+                    android:fontFamily="casual"
+                    android:text="Presente"
+                    android:textColor="#000"
+                    android:textSize="14dp" />
+            </TableRow>
+
+
+                <TableRow android:id="@+id/sixthRow"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/textTableLinhaCinco"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="#FFFFFF"
+                        android:padding="18dip"
+                        android:fontFamily="casual"
+                        android:text="Aparelho de Golgi"
+                        android:textColor="#000"
+                        android:textSize="14dp" />
+
+
+                    <TextView
+                        android:id="@+id/textTableLinhaCinco2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="#FFFFFF"
+                        android:padding="18dip"
+                        android:fontFamily="casual"
+                        android:text="Presente"
+                        android:textColor="#000"
+                        android:textSize="14dp" />
+
+
+                    <TextView
+                        android:id="@+id/textTableLinhaCinco3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="#FFFFFF"
+                        android:padding="18dip"
+                        android:fontFamily="casual"
+                        android:text="Presente"
+                        android:textColor="#000"
+                        android:textSize="14dp" />
+                </TableRow>
+
+                <TableRow android:id="@+id/seventhRow"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/textTableLinhaSeis"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="#FFFFFF"
+                        android:padding="18dip"
+                        android:fontFamily="casual"
+                        android:text="Lisossomos"
+                        android:textColor="#000"
+                        android:textSize="14dp" />
+
+
+                    <TextView
+                        android:id="@+id/textTableLinhaSeis2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="#FFFFFF"
+                        android:padding="18dip"
+                        android:fontFamily="casual"
+                        android:text="Presente"
+                        android:textColor="#000"
+                        android:textSize="14dp" />
+
+
+                    <TextView
+                        android:id="@+id/textTableLinhaSeis3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="#FFFFFF"
+                        android:padding="18dip"
+                        android:fontFamily="casual"
+                        android:text="Presente"
+                        android:textColor="#000"
+                        android:textSize="14dp" />
+                </TableRow>
+
+
+                <TableRow android:id="@+id/eighthRow"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/textTableLinhaSete"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="#FFFFFF"
+                        android:padding="18dip"
+                        android:fontFamily="casual"
+                        android:text="Peroxissomos"
+                        android:textColor="#000"
+                        android:textSize="14dp" />
+
+
+                    <TextView
+                        android:id="@+id/textTableLinhaSete2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="#FFFFFF"
+                        android:padding="18dip"
+                        android:fontFamily="casual"
+                        android:text="Presente"
+                        android:textColor="#000"
+                        android:textSize="14dp" />
+
+
+                    <TextView
+                        android:id="@+id/textTableLinhaSete3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="#FFFFFF"
+                        android:padding="18dip"
+                        android:fontFamily="casual"
+                        android:text="Presente"
+                        android:textColor="#000"
+                        android:textSize="14dp" />
+                </TableRow>
+
+
+            </TableLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

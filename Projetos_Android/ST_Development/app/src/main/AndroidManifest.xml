@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="astdevelopment.br.com.senai.st_development">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".bem_vindo"
+            android:label="@string/title_activity_bem_vindo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".informativa"
+            android:label="@string/title_activity_informativa"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".areas"
+            android:label="@string/title_activity_areas"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".historia"
+            android:label="@string/title_activity_historia"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".lista"
+            android:label="@string/title_activity_lista"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SendMensagem"
+            android:label="@string/title_activity_send_mensagem"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

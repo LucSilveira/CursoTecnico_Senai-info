@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_inicio3"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Mundo Celular" />
+        <item
+            android:id="@+id/nav_organelas3"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Organelas" />
+        <item
+            android:id="@+id/nav_galeria3"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Galeria" />
+        <item
+            android:id="@+id/nav_tipos3"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Tipos" />
+    </group>
+
+    <item android:title="Comunicação">
+        <menu>
+            <item
+                android:id="@+id/nav_avaliacao3"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Nos Avalie" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>

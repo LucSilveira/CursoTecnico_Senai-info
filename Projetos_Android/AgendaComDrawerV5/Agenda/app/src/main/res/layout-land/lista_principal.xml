@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="500dp"
+            android:layout_height="50dp"
+            android:id="@+id/item_nome"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:text="Nome Completo"
+            android:paddingTop="10dp"
+            android:paddingLeft="10dp"
+            android:autoSizeTextType="uniform"
+            android:autoSizeMinTextSize="16sp"
+            android:autoSizeMaxTextSize="28sp"
+
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/item_email"
+            android:textSize="18sp"
+            android:text="emailcompleto@email.com"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_map_black_24dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/item_endereco"
+                android:paddingLeft="10dp"
+                android:textSize="18sp"
+                android:paddingTop="5dp"
+                android:text="Alameda Barão de Limeira 539"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_telefone"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/item_telefone"
+                android:text="11985422222"
+                android:paddingLeft="10dp"
+                android:textSize="18sp"
+                android:paddingTop="5dp"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_estrela"
+            android:paddingTop="25dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/item_nota"
+            android:text="10"
+            android:textSize="22sp"
+            android:layout_marginTop="30dp"
+            />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

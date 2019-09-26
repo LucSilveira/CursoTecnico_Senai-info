@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Calculadora de Juros</string>
+    <string name="capital_inicial">Capital inicial</string>
+    <string name="taxa_juros">Texa de Juros</string>
+    <string name="n_meses">Número de meses</string>
+    <string name="capital_resultante">Capital resultante</string>
+    <string name="limpar">Limpar</string>
+    <string name="calcular">Calcular</string>
+    <string name="num_decimal"></string>
+    <string name="num_int"></string>
+</resources>

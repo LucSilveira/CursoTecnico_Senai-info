@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:fadingEdge="none"
+        android:fillViewport="true"
+        android:isScrollContainer="true"
+        android:scrollbars="none" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textOrganelas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Organelas"
+                android:textColor="#000"
+                android:layout_marginVertical="55dp"
+                android:textAlignment="center"
+                android:fontFamily="casual"
+                android:textSize="36dp"/>
+
+            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="380dp"
+    android:layout_margin="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imgCardUm"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_alignParentTop="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/mitocondria" />
+
+        <TextView
+            android:id="@+id/textTituloUmCardUm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgCardUm"
+            android:maxLines="3"
+            android:fontFamily="casual"
+            android:padding="8dp"
+            android:text="Mitocondria"
+            android:textColor="#222"
+            android:textStyle="bold"
+            android:textSize="22dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/textTituloDoisCardUm"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textTituloUmCardUm"
+            android:maxLines="3"
+            android:fontFamily="casual"
+            android:padding="8dp"
+            android:text="É a usina energética das células. Realizam a respiração celular e liberam a energia de que a célula necessita para as suas atividades."
+            android:textColor="#666"
+            android:textSize="14dp" />
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/card_viewDois"
+                android:layout_width="match_parent"
+                android:layout_height="380dp"
+                android:layout_margin="8dp"
+                android:paddingVertical="40dp"
+                android:paddingTop="20dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imgCardDois"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_alignParentTop="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ribossomos" />
+
+        <TextView
+            android:id="@+id/textTituloUmCardDois"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgCardDois"
+            android:maxLines="3"
+            android:fontFamily="casual"
+            android:padding="8dp"
+            android:text="Ribossomos"
+            android:textColor="#222"
+            android:textStyle="bold"
+            android:textSize="22dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/textTituloDoisCardDois"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textTituloUmCardDois"
+            android:maxLines="3"
+            android:fontFamily="casual"
+            android:padding="8dp"
+            android:text="Fabricam as proteínas nas células. Organelas fundamentais ao crescimento a à regeneração celular."
+            android:textColor="#666"
+            android:textSize="14dp" />
+
+    </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card_viewTres"
+            android:layout_width="match_parent"
+            android:layout_height="380dp"
+            android:layout_margin="8dp"
+            android:paddingVertical="40dp"
+            android:paddingTop="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/imgCardTres"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_alignParentTop="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/reticuloendoplasmatico" />
+
+            <TextView
+                android:id="@+id/textTituloUmCardTres"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgCardTres"
+                android:maxLines="3"
+                android:fontFamily="casual"
+                android:padding="8dp"
+                android:text="Retículo Endoplasmático"
+                android:textColor="#222"
+                android:textStyle="bold"
+                android:textSize="22dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:id="@+id/textTituloDoisCardTres"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textTituloUmCardTres"
+                android:maxLines="3"
+                android:fontFamily="casual"
+                android:padding="8dp"
+                android:text="É uma rede de canais e reentrâncias onde circulam proteínas, gorduras, sais etc."
+                android:textColor="#666"
+                android:textSize="14dp" />
+
+
+        </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+
+            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/card_viewQuatro"
+                android:layout_width="match_parent"
+                android:layout_height="380dp"
+                android:layout_margin="8dp"
+                android:paddingVertical="40dp"
+                android:paddingTop="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+
+                    <ImageView
+                        android:id="@+id/imgCardQuatro"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:layout_alignParentTop="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/complexogolgiense" />
+
+                    <TextView
+                        android:id="@+id/textTituloUmCardQuatro"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/imgCardQuatro"
+                        android:maxLines="3"
+                        android:fontFamily="casual"
+                        android:padding="8dp"
+                        android:text="Complexo Golgiense"
+                        android:textColor="#222"
+                        android:textStyle="bold"
+                        android:textSize="22dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:id="@+id/textTituloDoisCardQuatro"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/textTituloUmCardQuatro"
+                        android:maxLines="3"
+                        android:fontFamily="casual"
+                        android:padding="8dp"
+                        android:text="É formado por pequenas bolsas achatadas. Produz certos 'açúcares', modifica e armazena proteínas e outras substâncias. Também produz os lisossomos."
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/card_viewCinco"
+                android:layout_width="match_parent"
+                android:layout_height="380dp"
+                android:layout_margin="8dp"
+                android:paddingVertical="40dp"
+                android:paddingTop="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+
+                    <ImageView
+                        android:id="@+id/imgCardCinco"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:layout_alignParentTop="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/lisossomo" />
+
+                    <TextView
+                        android:id="@+id/textTituloUmCardCinco"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/imgCardCinco"
+                        android:maxLines="3"
+                        android:fontFamily="casual"
+                        android:padding="8dp"
+                        android:text="Lisossomos"
+                        android:textColor="#222"
+                        android:textStyle="bold"
+                        android:textSize="22dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:id="@+id/textTituloDoisCardCinco"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/textTituloUmCardCinco"
+                        android:maxLines="3"
+                        android:fontFamily="casual"
+                        android:padding="8dp"
+                        android:text="Realizam a digestão dentro da célula."
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+
+            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/card_viewSeis"
+                android:layout_width="match_parent"
+                android:layout_height="380dp"
+                android:layout_margin="8dp"
+                android:paddingVertical="40dp"
+                android:paddingTop="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+
+                    <ImageView
+                        android:id="@+id/imgCardSeis"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:layout_alignParentTop="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/centriolos" />
+
+                    <TextView
+                        android:id="@+id/textTituloUmCardSeis"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/imgCardSeis"
+                        android:maxLines="3"
+                        android:fontFamily="casual"
+                        android:padding="8dp"
+                        android:text="Centríolos"
+                        android:textColor="#222"
+                        android:textStyle="bold"
+                        android:textSize="22dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:id="@+id/textTituloDoisCardSeis"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/textTituloUmCardSeis"
+                        android:maxLines="3"
+                        android:fontFamily="casual"
+                        android:padding="8dp"
+                        android:text="São pequenas estruturas cilíndricas que participam da divisão da célula."
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/card_viewSete"
+                android:layout_width="match_parent"
+                android:layout_height="380dp"
+                android:layout_margin="8dp"
+                android:paddingVertical="40dp"
+                android:paddingTop="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+
+                    <ImageView
+                        android:id="@+id/imgCardSete"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:layout_alignParentTop="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/vacuolo" />
+
+                    <TextView
+                        android:id="@+id/textTituloUmCardSete"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/imgCardSete"
+                        android:maxLines="3"
+                        android:fontFamily="casual"
+                        android:padding="8dp"
+                        android:text="Vacúolos"
+                        android:textColor="#222"
+                        android:textStyle="bold"
+                        android:textSize="22dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:id="@+id/textTituloDoisCardSete"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/textTituloUmCardSete"
+                        android:maxLines="3"
+                        android:fontFamily="casual"
+                        android:padding="8dp"
+                        android:text=" São vesículas - pequenas bolsas que armazenam ou transportam enzimas, água etc."
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/card_viewOito"
+                android:layout_width="match_parent"
+                android:layout_height="380dp"
+                android:layout_margin="8dp"
+                android:paddingVertical="40dp"
+                android:paddingTop="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+
+                    <ImageView
+                        android:id="@+id/imgCardOito"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:layout_alignParentTop="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/cloroplasto" />
+
+                    <TextView
+                        android:id="@+id/textTituloUmCardOito"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/imgCardOito"
+                        android:maxLines="3"
+                        android:fontFamily="casual"
+                        android:padding="8dp"
+                        android:text="Cloroplasto"
+                        android:textColor="#222"
+                        android:textStyle="bold"
+                        android:textSize="22dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:id="@+id/textTituloDoisCardOito"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/textTituloUmCardOito"
+                        android:maxLines="3"
+                        android:fontFamily="casual"
+                        android:padding="8dp"
+                        android:text="São organelas presentes apenas em células vegetais, responsáveis pela fotossíntese."
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

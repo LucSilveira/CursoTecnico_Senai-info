@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_atua"
+            android:icon="@drawable/ic_account_balance_black"
+            android:title="Nossas atuações" />
+        <item
+            android:id="@+id/nav_historia"
+            android:icon="@drawable/ic_group_black"
+            android:title="Nossa história" />
+        <item
+            android:id="@+id/nav_contato"
+            android:icon="@drawable/ic_contacts_black"
+            android:title="Entre em contato" />
+        <item
+            android:id="@+id/nav_lista"
+            android:icon="@drawable/ic_list_black_24dp"
+            android:title="Consulte a lista" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_exit_to_app_black"
+            android:title="deslogar"
+            />
+        <item
+            android:id="@+id/nav_site"
+            android:icon="@drawable/webs"
+            android:title="acessar site"/>
+    </group>
+
+
+</menu>
