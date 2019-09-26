@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Teen Wolf</title>
+		<meta charset="UTF-8">
+	        <meta name="viewport" content="width=device-width, initial-scale=1">
+	        <link rel="stylesheet" href="teenw.css">
+            <script>
+                function mostrarModal(id){
+                    //Pegando o elemento
+                    var modalum = document.querySelector(modal1); 
+                    
+                    //Adicionando a classe
+                    if(modal.classList.contains("escondido")){
+                        modal.classList.remove("escondido")
+                    }else{
+                        modal.classList.add("escondido")
+                    }
+                }
+            </script>
+	</head>
+	<body>
+        <header>
+            <div id="lateral">
+              <div id="menu">      
+                <div id= "logoOficial">
+                <a href="../oficial.html">
+                    <img src="../img/logo.png" alt="ESTE É O LOGO DO NOSSO SITE"/>
+                    </a>
+                    </div>
+                     <div id="sites">
+                    <h3 class="link-titulo">Destaques</h3>
+                      
+                        <ul class="box">                    
+                            <li>
+                                <a href="Teenw.html"> 
+                                    <img src="../img/teen.png" alt="ESTE É UM LOGO DA SÉRIE TEEN WOLF"/>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../game/Game of Thrones.html">
+                                    <img src="../img/game.jpg" alt="ESTE É UM LOGO DA SÉRIE GAME OF THRONES"/>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../thats/that70sshow.html">
+                                    <img src="../img/thats.png" alt="ESTE É UM LOGO DA SÉRIE THAT '70s SHOW"/>
+                                </a>
+                            </li>
+                            <li >
+                                <a href="../oficial.html">Assista tudo isso sem sair do sofá!</a>
+                            </li>
+                        </ul>
+                        </div>
+
+                    <h3 class="link-titulo">Se junte a nós!</h3>
+                        <ul class="box">
+                            <li>       
+                                <a href="../cadatro.html">Cadastre-se</a>
+                            </li>
+                        </ul>
+
+                    <div id="colaboradores">
+                        <h3 class="link-titulo">Colaboradores</h3>
+                        <ul class="box">                    
+                            <li>
+                                <a href="../game/Game of Thrones.html"> 
+                                    <img src="../img/vitu.jpg" alt="ESSA É UMA FOTO DE VICTOR, UM DOS COLABORADORES"/> VICTOR RAVAZIO
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../oficial.html"> 
+                                    <img src="../img/eu.jpg" alt="ESSA É UMA FOTO DE ÍRIS, UMA DAS COLABORADORAS"/> ÍRIS CAMPANELLA
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../thats/that70sshow.html"> 
+                                    <img src="../img/sam.jpg" alt="ESSA É UMA FOTO DE SAMANTHA, UMA DAS COLABORADORAS"/> SAMANTHA GOMES
+                                </a>
+                            </li>
+                            <li>
+                                <a href="Teenw.html"> 
+                                    <img src="../img/lucas.jpg" alt="ESSA É UMA FOTO DE LUCAS, UM DOS COLABORADORES"/> LUCAS SILVEIRA
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+        <!--</section>-->
+                </div> <!-- /#menu -->
+            </div> <!-- /#lateral -->
+        </header>
+
+		<main id="conteudoPrincipal">
+            <section id="promoArea">
+            <div id="logo">
+                <img src="img/logo.png" style="margin-left: 725px"; width="400px">
+            </div>
+            <section id="intro">
+                <h2>Sinopse</h2>
+                <p>A serie Teen Wolf tem como atores principais dois adolescentes,  Scott McCall (Tyler Posey) e seu melhor amigo Stiles Stilinski (Dylan O'Brien), após ser atacado por um lobisomem, Scott nota que seu corpo ja não é o mesmo, percebe que seus sentidos ficam mais aguçados, fica mais forte e mais agil, porém fica com mais raiva do que o normal, mas sua vida volta a mudar quando ele conhece a bela jovem Allison Argent (Crystal Reed) com qual começa a se relacionar, porém percebe que a familia de sua namorada também não é nada comum, então passa a viver escondendo sua nova identidade de seus amigos, com excessao do seu melhor amigo mortal Stile, e como todos sabem um adolescente ja passa por serios problemas, agora imagine um lobisomem adolescente.</p>
+                <br>
+                <p>Criador da série: Jeff Davis</p>
+                <p>Elenco: Tyler Posey, Dylan O'Brien, Crystal Reed, ...</p>
+                <p>Genero: Drama</p>
+                <p>País: EUA</p>
+            <section id="trailer" >
+                <h2>Temporadas</h2>
+                <br>
+
+                <h3>1º Temporada</h3>
+                <div class="modalum escondido" id="modal1">
+                    <span onclick="º_Temporada('#modalPrincipal')">X</span>  
+                    <video id="promoVideo" controls="controls" loop="loop">
+                    <source src="video/tee.mp4">
+                    </video>
+                </div>
+
+                <h3>2º Temporada</h3>
+                <video id="promoVideo" controls="controls" loop="loop">
+                <source src="video/tee2.mp4">
+                </video>
+
+                <h3>3º Temporada</h3>
+                <video id="promoVideo" controls="controls" loop="loop">
+                <source src="video/tee3.mp4">
+                </video>
+
+                <h3>4º Temporada</h3>
+                <video id="promoVideo" controls="controls" loop="loop">
+                <source src="video/tee4.mp4">
+                </video>
+
+                <h3>5º Temporada</h3>
+                <video id="promoVideo" controls="controls" loop="loop">
+                <source src="video/tee5.mp4">
+                </video>
+            </section>
+        </main>
+	</body>
+</html> 

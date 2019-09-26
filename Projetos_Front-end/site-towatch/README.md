@@ -1,0 +1,1 @@
+Site desenvolvido durante o curso técnico para aprendermos a como confeccionarmos sites e integra-los a outras páginas desenvolvidas em grupos. (Site em adaptação)

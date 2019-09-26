@@ -1,0 +1,170 @@
+/*@author: Victor Ravazio de Lima*/
+/*SENAI de Informática - MT2*/
+#menuSuperior{
+    background-color: rgba(30, 30, 30 , .5);
+    height: 48px;
+    position: fixed;
+    width: 100%;
+    top: 0px; /*Para iniciar noro topo da página*/
+    z-index: 1; /*Define a camada de renderização*/
+}
+
+#menuSuperior nav{
+    text-align: right;
+    padding: 16px 32px;
+}
+
+#menuSuperior nav a{
+    margin-left: 32px;
+}
+
+section img{
+width:100px;
+}
+
+body{
+   background: url("imagens/game-of-thrones-background.jpg") center center no-repeat fixed;
+    -webkit-background-size: cover;
+    -o-background-size:cover;
+    background-size: cover;
+    color: #ffffff;
+    font-family: 'Arial';
+}
+
+h2{
+    font-size: 30px; 
+    text-align: center;
+    margin-bottom: 20px;
+    }
+
+#intro p{
+    font-size: 20px; 
+    text-align: justify;
+    margin-bottom: 20px;
+    }
+
+h3{
+    color: #75c9e3;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#casas li{
+    font-size: 30px;
+}
+
+#casas{
+    font-size: 20px;
+    margin-left: 200px;
+    margin-right: 200px;  
+}
+
+#assista p{
+    font-size: 28px; 
+    text-align: center;
+}
+
+#assista a{
+    font-size: 28px;
+    transition: color .4s; 
+    text-decoration: none;
+    margin-bottom: 50px;
+}
+#assista{
+    margin-top: 20px;
+}
+
+#clique{
+    position: absolute;
+    left: 900px;
+}
+
+.compreAqui{
+    font-size: 28px;
+    transition: color .4s; 
+    text-decoration: none;
+    margin-left: 840px;
+
+}
+
+
+p{
+    text-align: justify;
+    margin: 5px;
+}
+
+img{
+    width: 100%;
+}
+
+#stark, #lannister, #targaryen, #stark_family, #lannister_family, #targaryen_family{
+    height: 250px;
+    width: 400px;
+}
+a:hover{
+    color: #f44156;
+}
+
+video{
+    width: 100%;
+    height: 100%;
+    margin-top: 5px;
+    /*margin-bottom: 20px;*/
+}
+#livro img{
+    margin-left:570px;
+    height: 300px;
+    width: 700px;
+    margin-bottom: 20px;
+}
+
+#livro{
+    margin-top: 10px;
+}
+
+#livro p{
+    font-size: 20px; 
+    text-align: center;
+
+}
+
+#logo img{
+    display: block;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+img #stark, #lannister, #targaryen{ 
+    /*margin-left: 500px;*/
+}
+li{
+    margin-bottom: 20px;
+}
+#trailer{
+    margin-top: 20px;
+    background-color: rgba(48, 101, 186, 0.7);
+}
+
+#confira{
+    padding: 10px;
+}
+/*list-style: none*/
+
+#starks{
+    /*background-color: rgba(48, 101, 186, 0.7);*/
+    background-image: url('imagens/starks.png');
+    padding: 60px;
+}
+
+#lannisters{
+    background-image: url('imagens/lannisters.png');
+    padding: 60px;
+}
+
+#targaryens{
+    background-image: url('imagens/targaryens.png');
+    padding: 60px;
+}

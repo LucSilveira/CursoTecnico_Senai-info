@@ -1,0 +1,231 @@
+*{
+    box-sizing: border-box;
+    color: white;
+    font-family: "Segoe UI";
+}
+
+.app-controls{
+    position: fixed;
+    bottom: 32px;
+    right: 32px;
+}
+
+.app-controls > .btn-circular{
+    transform: scale(1);
+
+    transition: transform .2s;
+}
+
+.app-controls > *:hover{
+    transform: scale(1.25);
+}
+
+.app-controls > * + *{
+    margin-top: 16px;
+}
+
+body{
+    background-image: url("../images/purple-pattern.jpg");
+    margin: 0px;
+    padding: 32px 0px;
+}
+
+.button-group{
+    display: flex;
+}
+
+.button-group > *{
+    margin: auto;
+    text-align: center;
+}   
+
+.btn{
+    border: none;
+    background-color: #b82f95;
+    padding: 16px 32px;
+    display: flex;
+    align-items: center;
+}
+
+.btn > *{
+    font-size: 32px;
+    flex: 1;
+}
+
+.btn, .btn > *{
+    color: black;
+    text-align: center;
+}
+
+.btn:hover, .btn:hover > *{
+    color: white;
+}
+
+.btn-circular{
+    background-color: white;
+    border-radius: 50%;
+    padding: 0px 0px;
+    width: 64px;
+    height: 64px;
+
+    transition: background-color .4s ease-out;
+}
+
+.btn-circular:hover{
+    background-color: #f442c8;
+}
+
+.btn-like{
+    transform: scale(.75);
+}
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#editing-overlay{
+    display: none;
+}
+
+#editing-overlay form{
+    max-width: 800px;
+    height: 60%;
+    width: 100%;
+}
+
+#editing-overlay form *{
+    font-size: 32px;
+    width: 100%;
+}
+
+#editing-overlay form > * + *{
+    margin-top: 4px !important;
+}
+
+#editing-overlay form button{
+    display: block;
+    text-align: center;
+}
+
+#editing-overlay form textarea{
+    height: 80%;
+}
+
+body.editing #editing-overlay{
+    align-items: center; 
+    display: flex;
+    justify-content: center;
+}
+
+form * {
+    display: block;
+}
+
+input, textarea{
+    color: black;
+}
+
+h1, h2, h3
+{
+    margin: 0px 0px 16px 0px;
+    text-align: center;
+}
+
+h1 {font-size: 60px;}
+h2 {font-size: 48px;}
+h3 {font-size: 40px;}
+
+#loading-overlay{
+    display: none;
+}
+
+#loading-overlay img{
+    flex: 1;
+    flex-basis: 256px;
+    flex-grow: 0;
+}
+
+body.loading #loading-overlay{
+    align-items: center; 
+    display: flex;
+    justify-content: center;
+}
+
+#mural{
+    background-color: rgba(30, 30, 30, 0.85);
+    border-radius: 8px;
+    display: block;
+    margin: auto;
+    margin-bottom: 64px;
+    max-width: 1080px;
+    padding: 32px 0px;
+    width: 100%;
+}
+
+.noticia{
+    border: 1px solid #f442c8;
+    display: block;
+    margin: auto;
+    margin-bottom: 128px;
+    max-width: 800px;
+    padding: 32px 32px 8px 32px;
+    width: 100%;
+}
+
+.noticia-conteudo{
+    font-size: 18px;
+    margin-bottom: 64px;
+}
+
+.noticia-data-criacao{
+    display: block;
+    margin-left: auto;
+    text-align: right;
+}
+
+.noticia-header{
+    border-bottom: 1px solid white;
+    padding-bottom: 4px;
+    margin-bottom: 64px;
+}
+
+.overlay{
+    background-color: rgba(30, 30, 30, 0.75);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100vh;
+    width: 100vw;
+}
+
+.text-sm{
+    font-size: 14px;
+}
+
+@media screen and (max-width: 800px){
+    .app-controls{
+        background-color: white;
+        bottom: 0px;
+        display: flex;
+        justify-content: center;
+        min-width: 100vw;
+        right: 0px;
+    }
+
+    .app-controls > *{
+        color: black;
+        flex: 1;
+        flex-basis: 64px;
+        flex-grow: 0;
+    }
+
+    .app-controls > *:hover{
+        color: white;
+    }
+
+    body{
+        padding: 0px;
+    }
+}

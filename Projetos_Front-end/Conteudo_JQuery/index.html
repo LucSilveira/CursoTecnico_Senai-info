@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/fontawesome-all.min.css">
+    <script src="jquery-3.2.1.min.js"></script>
+    <script src="app.js"></script>
+    <title>Mural Mil Grau</title>
+</head>
+<body class="loading">
+    <main>
+        <section id="mural">
+            <h2>Notícias</h2>
+        </section>
+        <div class="app-controls">
+            <a class="btn btn-circular" id="btnAddNews">
+                <span class="fas fa-clipboard"></span>
+            </a>
+        </div>
+        <div class="overlay" id="loading-overlay">
+            <img src="images/loading.gif">
+        </div>
+        <div class="overlay" id="editing-overlay">
+            <form>
+                <input type="text" name="title" id="inputTitle" placeholder="Título"/>
+                <textarea name="content" id="inputContent" placeholder="Coloque aqui seu conteúdo..."></textarea>
+                <div class="button-group">
+                    <button type="button" class="btn" id="btnCreate">Salvar</button>
+                    <button type="button" class="btn" id="btnCancelEdit">Cancelar</button>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
